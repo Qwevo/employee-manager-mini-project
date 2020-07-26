@@ -10,7 +10,7 @@ Once completed, you can use Postman to perform the several api calls.
 
 Example : 
 
-1 - Start by creating a new user.
+- Start by creating a new user.
 POST -> localhost:3000/employees
 body -> 
 {
@@ -19,12 +19,12 @@ body ->
 	"name" : "Mr toto",
 	"age": 27
 }
-2- Once the user is created, you have to call the login in order to get valid token
+- Once the user is created, you have to call the login in order to get valid token
 POST -> localhost:3000/employees/login
 {
   "email": "toto.example@gmail.com",
 	"password":"6777UUUUJS"
 }
-3- Once you have the token, you can use it as 'Authorization' header and you can perform the other operations.
+- Once you have the token, you can use it as 'Authorization' header and you can perform the other operations.
 
 Enjoy !!!
